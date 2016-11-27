@@ -11,7 +11,10 @@ unicode-ranger [url]
 ```
 
 If you only have one URL, just pass it in:
+
+```
 unicode-ranger https://example.com
+```
 
 This command will produce output similar to something below:
 
