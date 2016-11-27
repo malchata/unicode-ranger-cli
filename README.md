@@ -1,5 +1,5 @@
-# Unicode Ranger!
-## Generates valid unicode ranges for use in the unicode-ranges CSS property, or font subsetting with pyftsubset by reading the content of a document.
+# `unicode-ranger-cli`
+## Generates valid unicode ranges for use in the unicode-ranges CSS property, or font subsetting with pyftsubset by reading the content of a document. Uses [`unicode-ranger`](https://npmjs.com/package/unicode-ranger).
 
 Ever wanted to examine the content of a URL (or URLs) and get unicode ranges that you can use in a CSS `unicode-range` statement? Or for font subsetting? Now you can.
 
@@ -36,4 +36,9 @@ If you have `pyftsubset` installed from the [`fonttools`](https://github.com/fon
 pyftsubset font.ttf --unicodes=`echo $(unicode-ranger https://example.com)` --output-file=font.ttf --name-IDs='*'
 ```
 
-Have fun!
+## Contributing/whatever
+
+This program is just a CLI interface for `unicode-ranger`, so if there are problems with the program, they're likely due to problems in the underlying module, so [log an issue over there](https://github.com/malchata/unicode-ranger/issues). If you want to contribute, just fork this CLI (or the module) and send me a PR and I'll review it.
+
+## Special thanks
+Thanks to both [Ben Briggs](https://twitter.com/ben_eb) and [Ray Nicholus](https://twitter.com/RayNicholus) for their help with some snags I hit. Check them out on twitter!
