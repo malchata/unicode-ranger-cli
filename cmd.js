@@ -25,7 +25,7 @@ if(urls === "help" || urls === undefined || opts.help){
 }
 
 if(urls.indexOf("https://") === -1 && urls.indexOf("http://") === -1){
-	read(path.join(__dirname, urls), function(error, buffer){
+	read(path.join(urls), function(error, buffer){
 		if(error){
 			console.log("Error! Code " + error.code + " attempting " + error.syscall + " on " + error.path);
 		}
