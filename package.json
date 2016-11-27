@@ -1,0 +1,41 @@
+{
+  "name": "unicode-ranger-cli",
+  "version": "1.0.1",
+  "description": "A CLI for unicode-ranger",
+  "main": "cmd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malchata/unicode-ranger-cli.git"
+  },
+  "bin": {
+    "unicode-ranger": "cmd.js"
+  },
+  "files": [
+    "cmd.js",
+    "usage.txt",
+    "LICENSE-MIT"
+  ],
+  "keywords": [
+    "unicode-range",
+    "unicode",
+    "range",
+    "css",
+    "font",
+    "subset",
+    "subsetting",
+    "cli",
+    "cli-app"
+  ],
+  "author": "Jeremy Wagner <jeremy.l.wagner@gmail.com> (https://jeremywagner.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malchata/unicode-ranger-cli/issues"
+  },
+  "homepage": "https://github.com/malchata/unicode-ranger-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "read-file-stdin": "^0.2.1",
+    "unicode-ranger": "^1.0.2"
+  },
+  "devDependencies": {}
+}
