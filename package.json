@@ -1,6 +1,6 @@
 {
   "name": "unicode-ranger-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI for unicode-ranger",
   "main": "dist/cmd.js",
   "scripts": {
